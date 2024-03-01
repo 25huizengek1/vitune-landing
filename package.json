@@ -14,8 +14,9 @@
     },
     "scripts": {
         "dev": "vinxi dev",
-        "build": "NODE_ENV=production vinxi build",
-        "start": "NODE_ENV=production vinxi start"
+        "build": "vinxi build",
+        "start": "vinxi start",
+        "build:vercel": "vinxi build --preset vercel"
     },
     "dependencies": {
         "@solidjs/router": "^0.12.4",
