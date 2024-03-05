@@ -10,7 +10,7 @@ dependencies:
     version: 0.12.4(solid-js@1.8.15)
   '@solidjs/start':
     specifier: ^0.6.0
-    version: 0.6.0(solid-js@1.8.15)(vinxi@0.3.8)(vite@5.1.4)
+    version: 0.6.0(solid-js@1.8.15)(vinxi@0.3.9)(vite@5.1.4)
   autoprefixer:
     specifier: ^10.4.18
     version: 10.4.18(postcss@8.4.35)
@@ -27,8 +27,8 @@ dependencies:
     specifier: ^3.4.1
     version: 3.4.1
   vinxi:
-    specifier: 0.3.8
-    version: 0.3.8(@types/node@20.11.24)(preact@10.19.6)
+    specifier: 0.3.9
+    version: 0.3.9(@types/node@20.11.24)(preact@10.19.6)
 
 devDependencies:
   '@types/node':
@@ -1596,12 +1596,12 @@ packages:
       solid-js: 1.8.15
     dev: false
 
-  /@solidjs/start@0.6.0(solid-js@1.8.15)(vinxi@0.3.8)(vite@5.1.4):
+  /@solidjs/start@0.6.0(solid-js@1.8.15)(vinxi@0.3.9)(vite@5.1.4):
     resolution: {integrity: sha512-djHVrUCv7AH8q5HOXX+EZ3zdXOibMCQmCG8xNRkOgEbyhB/vp+MtbhCpvoLROgnHm/5pHDLwVKVkYiTsDBUsOA==}
     dependencies:
-      '@vinxi/plugin-directives': 0.3.0(vinxi@0.3.8)
-      '@vinxi/server-components': 0.3.1(vinxi@0.3.8)
-      '@vinxi/server-functions': 0.3.1(vinxi@0.3.8)
+      '@vinxi/plugin-directives': 0.3.0(vinxi@0.3.9)
+      '@vinxi/server-components': 0.3.1(vinxi@0.3.9)
+      '@vinxi/server-functions': 0.3.1(vinxi@0.3.9)
       defu: 6.1.4
       error-stack-parser: 2.1.4
       html-to-image: 1.11.11
@@ -1916,7 +1916,7 @@ packages:
       - uWebSockets.js
     dev: false
 
-  /@vinxi/plugin-directives@0.3.0(vinxi@0.3.8):
+  /@vinxi/plugin-directives@0.3.0(vinxi@0.3.9):
     resolution: {integrity: sha512-diwK2D6mZGffF5z+CgG7DcRnpKrOgqyv8SfxdbOTLGQcxtrQ9IpuHfX+mbOttaIJFvoZ3pHGUKe7Gfgd0BuQ1A==}
     peerDependencies:
       vinxi: ^0.3.0
@@ -1930,37 +1930,37 @@ packages:
       magicast: 0.2.11
       recast: 0.23.4
       tslib: 2.6.2
-      vinxi: 0.3.8(@types/node@20.11.24)(preact@10.19.6)
+      vinxi: 0.3.9(@types/node@20.11.24)(preact@10.19.6)
     dev: false
 
-  /@vinxi/server-components@0.3.1(vinxi@0.3.8):
+  /@vinxi/server-components@0.3.1(vinxi@0.3.9):
     resolution: {integrity: sha512-K0DFQtO+u3FZQ6dA/1ht5bElJELXMehHHn3tG9vlXXbzCnMtPa4Xesi5piV5NMqGEjOeB3kWMJB5xVruM+/vqA==}
     peerDependencies:
       vinxi: ^0.3.7
     dependencies:
-      '@vinxi/plugin-directives': 0.3.0(vinxi@0.3.8)
+      '@vinxi/plugin-directives': 0.3.0(vinxi@0.3.9)
       acorn: 8.11.3
       acorn-loose: 8.4.0
       acorn-typescript: 1.4.13(acorn@8.11.3)
       astring: 1.8.6
       magicast: 0.2.11
       recast: 0.23.4
-      vinxi: 0.3.8(@types/node@20.11.24)(preact@10.19.6)
+      vinxi: 0.3.9(@types/node@20.11.24)(preact@10.19.6)
     dev: false
 
-  /@vinxi/server-functions@0.3.1(vinxi@0.3.8):
+  /@vinxi/server-functions@0.3.1(vinxi@0.3.9):
     resolution: {integrity: sha512-FsGskj97cWKytaU7OPK4fIW5x6F2i3Hks4wTCZOofiWz/O0GJkT2oDhNV5t6Agj07PGAjrRPwfcHnLoB9IGyHg==}
     peerDependencies:
       vinxi: ^0.3.7
     dependencies:
-      '@vinxi/plugin-directives': 0.3.0(vinxi@0.3.8)
+      '@vinxi/plugin-directives': 0.3.0(vinxi@0.3.9)
       acorn: 8.11.3
       acorn-loose: 8.4.0
       acorn-typescript: 1.4.13(acorn@8.11.3)
       astring: 1.8.6
       magicast: 0.2.11
       recast: 0.23.4
-      vinxi: 0.3.8(@types/node@20.11.24)(preact@10.19.6)
+      vinxi: 0.3.9(@types/node@20.11.24)(preact@10.19.6)
     dev: false
 
   /abbrev@1.1.1:
@@ -5528,8 +5528,8 @@ packages:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
     dev: false
 
-  /vinxi@0.3.8(@types/node@20.11.24)(preact@10.19.6):
-    resolution: {integrity: sha512-Z0a6xmBwjJKVb1CjYRy4CVZ4O7CoeaI6By4vIlmN+5aLuXFR2xhRDIL5EwiJjbCGKotZoNfiuWGyQiykbZwkvw==}
+  /vinxi@0.3.9(@types/node@20.11.24)(preact@10.19.6):
+    resolution: {integrity: sha512-+TKbWrmbNpDGn4QvJcbO3LonFpH4L0SVWOyI63WZ2zT94pJrSvyt+BefEcTlvYAJiKZUFPxkjUlNzsUdCRjZpg==}
     hasBin: true
     dependencies:
       '@babel/core': 7.24.0
