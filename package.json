@@ -20,7 +20,7 @@
     },
     "dependencies": {
         "@solidjs/router": "^0.13.0",
-        "@solidjs/start": "^0.6.0",
+        "@solidjs/start": "^0.7.5",
         "autoprefixer": "^10.4.18",
         "postcss": "^8.4.35",
         "solid-icons": "^1.1.0",
