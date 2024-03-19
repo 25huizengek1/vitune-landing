@@ -19,8 +19,8 @@
         "build:vercel": "vinxi build --preset vercel"
     },
     "dependencies": {
-        "@solidjs/router": "^0.13.0",
-        "@solidjs/start": "^0.6.0",
+        "@solidjs/router": "^0.13.1",
+        "@solidjs/start": "^0.7.7",
         "autoprefixer": "^10.4.18",
         "postcss": "^8.4.36",
         "solid-icons": "^1.1.0",
