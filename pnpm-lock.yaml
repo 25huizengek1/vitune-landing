@@ -10,7 +10,7 @@ dependencies:
     version: 0.13.1(solid-js@1.8.16)
   '@solidjs/start':
     specifier: ^0.7.7
-    version: 0.7.7(solid-js@1.8.16)(vinxi@0.3.10)(vite@5.1.4)
+    version: 0.7.7(solid-js@1.8.16)(vinxi@0.3.11)(vite@5.1.4)
   autoprefixer:
     specifier: ^10.4.19
     version: 10.4.19(postcss@8.4.38)
@@ -27,8 +27,8 @@ dependencies:
     specifier: ^3.4.1
     version: 3.4.1
   vinxi:
-    specifier: 0.3.10
-    version: 0.3.10(@types/node@20.11.30)
+    specifier: 0.3.11
+    version: 0.3.11(@types/node@20.11.30)
 
 devDependencies:
   '@types/node':
@@ -1501,12 +1501,12 @@ packages:
       solid-js: 1.8.16
     dev: false
 
-  /@solidjs/start@0.7.7(solid-js@1.8.16)(vinxi@0.3.10)(vite@5.1.4):
+  /@solidjs/start@0.7.7(solid-js@1.8.16)(vinxi@0.3.11)(vite@5.1.4):
     resolution: {integrity: sha512-903IEGuyZ2X1UBpYzpMyJXXycpU4WMpsqMgz/GT5H97frh3eAd7wgPLfC6FNA/gcNiJg43a23e4brSY7xzTFbw==}
     dependencies:
-      '@vinxi/plugin-directives': 0.3.1(vinxi@0.3.10)
-      '@vinxi/server-components': 0.3.3(vinxi@0.3.10)
-      '@vinxi/server-functions': 0.3.2(vinxi@0.3.10)
+      '@vinxi/plugin-directives': 0.3.1(vinxi@0.3.11)
+      '@vinxi/server-components': 0.3.3(vinxi@0.3.11)
+      '@vinxi/server-functions': 0.3.2(vinxi@0.3.11)
       defu: 6.1.4
       error-stack-parser: 2.1.4
       glob: 10.3.10
@@ -1821,7 +1821,7 @@ packages:
       - uWebSockets.js
     dev: false
 
-  /@vinxi/plugin-directives@0.3.1(vinxi@0.3.10):
+  /@vinxi/plugin-directives@0.3.1(vinxi@0.3.11):
     resolution: {integrity: sha512-4qz5WifjmJ864VS8Ik9nUG0wAkt/xIcxFpP29RXogGLgccRnceBpWQi+ghw5rm0F6LP/YMAhhO5iFORXclWd0Q==}
     peerDependencies:
       vinxi: ^0.3.10
@@ -1835,37 +1835,37 @@ packages:
       magicast: 0.2.11
       recast: 0.23.4
       tslib: 2.6.2
-      vinxi: 0.3.10(@types/node@20.11.30)
+      vinxi: 0.3.11(@types/node@20.11.30)
     dev: false
 
-  /@vinxi/server-components@0.3.3(vinxi@0.3.10):
+  /@vinxi/server-components@0.3.3(vinxi@0.3.11):
     resolution: {integrity: sha512-xaW92nj9HUMLyswPcCmsIXOsS3TJll0m9u3WEjWjLrtZWheHggina6+kTCSeltp/Qe8WlUfNU5G02Xy8L4xQxA==}
     peerDependencies:
       vinxi: ^0.3.10
     dependencies:
-      '@vinxi/plugin-directives': 0.3.1(vinxi@0.3.10)
+      '@vinxi/plugin-directives': 0.3.1(vinxi@0.3.11)
       acorn: 8.11.3
       acorn-loose: 8.4.0
       acorn-typescript: 1.4.13(acorn@8.11.3)
       astring: 1.8.6
       magicast: 0.2.11
       recast: 0.23.4
-      vinxi: 0.3.10(@types/node@20.11.30)
+      vinxi: 0.3.11(@types/node@20.11.30)
     dev: false
 
-  /@vinxi/server-functions@0.3.2(vinxi@0.3.10):
+  /@vinxi/server-functions@0.3.2(vinxi@0.3.11):
     resolution: {integrity: sha512-PoARb1X480UE9jysPqltpzginBftna34GmZ3HyvRT+pnPfsGcuHOzZe/a18V/K04qk2yMRd7eeW42JF5O+wunw==}
     peerDependencies:
       vinxi: ^0.3.10
     dependencies:
-      '@vinxi/plugin-directives': 0.3.1(vinxi@0.3.10)
+      '@vinxi/plugin-directives': 0.3.1(vinxi@0.3.11)
       acorn: 8.11.3
       acorn-loose: 8.4.0
       acorn-typescript: 1.4.13(acorn@8.11.3)
       astring: 1.8.6
       magicast: 0.2.11
       recast: 0.23.4
-      vinxi: 0.3.10(@types/node@20.11.30)
+      vinxi: 0.3.11(@types/node@20.11.30)
     dev: false
 
   /abbrev@1.1.1:
@@ -5342,8 +5342,8 @@ packages:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
     dev: false
 
-  /vinxi@0.3.10(@types/node@20.11.30):
-    resolution: {integrity: sha512-jy7YoztZSujECNsnpf5b4laUGVT5Xd8CSl/gbDiG4zF6toIDi5zquMzIPPD51e46xtNX3hVT/TRsZ8x3pWDfcA==}
+  /vinxi@0.3.11(@types/node@20.11.30):
+    resolution: {integrity: sha512-ASEpiwldZIsViv2/ZlO6qnRhDAwxr92nKXxMOinA+5nCY7nlaKgekaLDjTyUmFzB8DSiXVZqmHnd6OZVkn4vzw==}
     hasBin: true
     dependencies:
       '@babel/core': 7.24.0
