@@ -25,7 +25,7 @@
         "postcss": "^8.4.38",
         "solid-icons": "^1.1.0",
         "solid-js": "^1.8.16",
-        "tailwindcss": "^3.4.1",
+        "tailwindcss": "^3.4.3",
         "vinxi": "0.3.11"
     },
     "devDependencies": {
