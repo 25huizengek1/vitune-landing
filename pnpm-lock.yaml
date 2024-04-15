@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@solidjs/router':
-    specifier: ^0.13.1
-    version: 0.13.1(solid-js@1.8.16)
+    specifier: ^0.13.2
+    version: 0.13.2(solid-js@1.8.16)
   '@solidjs/start':
     specifier: ^0.7.7
     version: 0.7.7(solid-js@1.8.16)(vinxi@0.3.11)(vite@5.1.4)
@@ -1493,8 +1493,8 @@ packages:
     engines: {node: '>=18'}
     dev: false
 
-  /@solidjs/router@0.13.1(solid-js@1.8.16):
-    resolution: {integrity: sha512-Rz5Lf0ssWMuN+Wm2GFO0vwZoO/KSwYFSuCUzWrRAvje5M0ZYZrMk5FZxuzdJT+zg8KuqWJQlRALks5E0r+FjAA==}
+  /@solidjs/router@0.13.2(solid-js@1.8.16):
+    resolution: {integrity: sha512-zPlQUXaaUMFzz70SNN8scITooBaJyvIJci3ilyHUBXr9+mzEJGCUSohRJx/VXKo9+p+HEBHY48GnChiPYfLsjg==}
     peerDependencies:
       solid-js: ^1.8.6
     dependencies:
