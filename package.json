@@ -16,7 +16,9 @@
         "dev": "vinxi dev",
         "build": "vinxi build",
         "start": "vinxi start",
-        "build:vercel": "vinxi build --preset vercel"
+        "build:vercel": "vinxi build --preset vercel",
+        "lint": "eslint src/",
+        "lint:fix": "eslint --fix src/"
     },
     "dependencies": {
         "@solidjs/router": "^0.13.2",
@@ -29,9 +31,10 @@
         "vinxi": "0.3.11"
     },
     "devDependencies": {
+        "@eslint/js": "^9.1.1",
         "@types/node": "^20.12.7",
-        "@typescript-eslint/eslint-plugin": "^7.7.0",
-        "@typescript-eslint/parser": "^7.7.1",
-        "eslint": "^8.57.0"
+        "eslint": "^9.1.1",
+        "typescript": "^5.4.5",
+        "typescript-eslint": "^7.7.1"
     }
 }
