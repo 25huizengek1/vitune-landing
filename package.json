@@ -31,7 +31,7 @@
         "vinxi": "0.3.11"
     },
     "devDependencies": {
-        "@eslint/js": "^9.2.0",
+        "@eslint/js": "^9.6.0",
         "@types/node": "^20.14.2",
         "eslint": "^9.2.0",
         "typescript": "^5.4.5",
