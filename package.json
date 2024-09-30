@@ -21,7 +21,7 @@
         "lint:fix": "eslint --fix src/"
     },
     "dependencies": {
-        "@solidjs/router": "^0.13.3",
+        "@solidjs/router": "^0.14.7",
         "@solidjs/start": "^0.7.7",
         "autoprefixer": "^10.4.19",
         "postcss": "^8.4.38",
