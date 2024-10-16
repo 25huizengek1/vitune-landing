@@ -22,7 +22,7 @@
     },
     "dependencies": {
         "@solidjs/router": "^0.13.3",
-        "@solidjs/start": "^0.7.7",
+        "@solidjs/start": "^1.0.8",
         "autoprefixer": "^10.4.19",
         "postcss": "^8.4.47",
         "solid-icons": "^1.1.0",
