@@ -1,7 +1,14 @@
 ---
 import Layout from "../layouts/default.astro"
+import Hero from "../components/hero"
+import Features from "../components/features"
 ---
 
 <Layout>
-	
+	<Hero client:load data={new Array(1).fill({
+        title: "screenshot",
+        thumbnail: "https://raw.githubusercontent.com/25huizengek1/ViTune/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
+    })} />
+
+    <Features />
 </Layout>
