@@ -1,6 +1,7 @@
 {
-  "name": "",
+  "name": "vitune-landing",
   "type": "module",
+  "author": "ArnavK-09 <arnavkaushal09@gmail.com>",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
