@@ -5,7 +5,7 @@ export default {
     extend: {
       animation: {
         jiggle: "jiggle 0.5s ease-in-out both infinite",
-        tada: "tada 3s ease-in-out both infinite",
+        tada: "tada 3s ease-in-out both",
       },
       keyframes: {
         jiggle: {
