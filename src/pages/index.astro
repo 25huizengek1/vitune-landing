@@ -21,7 +21,7 @@ import WobbleCard from "../components/wobble-card";
   <section id="download" class="w-screen overflow-x-hidden py-10 px-4">
     <WobbleCard
       client:load
-      containerClassName="h-full bg-[#08041d]/85 max-h-[500px] lg:max-h-[300px]"
+      containerClassName="h-full bg-[#08041d]/85 min-h-[500px] lg:min-h-[300px] lg:max-h-[300px]"
     >
       <div class="w-full flex flex-col gap-4 h-full">
         <div class="pt-10">
@@ -36,7 +36,7 @@ import WobbleCard from "../components/wobble-card";
           </p>
         </div>
         <div
-          class="max-h-[500px] lg:max-h-[300px] grid grid-cols-3 items-center align-middle"
+          class="max-h-[500px] lg:max-h-[300px] grid grid-cols-1 py-4 md:py-0 md:grid-cols-3 items-center align-middle"
         >
           <div class="cursor-pointer">
             <a

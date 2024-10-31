@@ -1,3 +1,7 @@
+---
+import { IconBrandGithub } from "@tabler/icons-react";
+---
+
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -40,6 +44,15 @@
   <body
     class="overflow-x-hidden min-h-screen break-words bg-gradient-to-br to-[#1f1f35] via-[#1f1f35] from-[#08041d] text-white"
   >
+    <header class="top-5 absolute right-4">
+      <a
+        target="_blank"
+        href="https://github.com/25huizengek1/ViTune"
+        class="animate-tada rounded-full py-0.5 px-2 border-2 font-bold tracking-wide flex items-center justify-center"
+      >
+        <span class="mr-1"><IconBrandGithub /></span>Give Star On Github</a
+      >
+    </header>
     <main class="py-20"><slot /></main>
   </body>
   <style is:global>
@@ -50,6 +63,20 @@
       font-family: "Rubik", sans-serif;
       font-optical-sizing: auto;
       font-style: normal;
+
+      ::-webkit-scrollbar {
+        display: none !important;
+      }
+      ::-moz-scrollbar {
+        display: none !important;
+      }
+    }
+
+    ::-webkit-scrollbar {
+      display: none !important;
+    }
+    ::-moz-scrollbar {
+      display: none !important;
     }
   </style>
 </html>
