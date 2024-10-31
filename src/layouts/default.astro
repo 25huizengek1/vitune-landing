@@ -1,12 +1,55 @@
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body class="overflow-x-hidden min-h-screen break-words bg-black">
-		<main class="py-20"><slot /></main>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://raw.githubusercontent.com/25huizengek1/ViTune/master/app/src/main/ic_launcher-playstore.png"
+    />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Vitune - Seamless Music Streaming, Personalized for You!</title>
+    <meta
+      name="description"
+      content="ViTune brings you a seamless music streaming experience with access to nearly any song or video from YouTube Music, offline playback, and personalized playlists. Discover new tracks by mood or genre, manage your playlists with cloud sync, and enjoy a sleek, customizable interface—all in a lightweight app designed for music lovers."
+    />
+    <meta property="og:title" content="Vitune - Seamless Music Streaming" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="ViTune brings you a seamless music streaming experience with access to nearly any song or video from YouTube Music, offline playback, and personalized playlists. Discover new tracks by mood or genre, manage your playlists with cloud sync, and enjoy a sleek, customizable interface—all in a lightweight app designed for music lovers."
+    />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/25huizengek1/ViTune/master/app/src/main/ic_launcher-playstore.png"
+    />
+    <meta property="og:url" content="https://vitune.app" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@25huizengek1" />
+    <meta name="twitter:title" content="Vitune - Seamless Music Streaming" />
+    <meta
+      name="twitter:description"
+      content="ViTune brings you a seamless music streaming experience with access to nearly any song or video from YouTube Music, offline playback, and personalized playlists. Discover new tracks by mood or genre, manage your playlists with cloud sync, and enjoy a sleek, customizable interface—all in a lightweight app designed for music lovers."
+    />
+    <meta
+      name="twitter:image"
+      content="https://raw.githubusercontent.com/25huizengek1/ViTune/master/app/src/main/ic_launcher-playstore.png"
+    />
+    <meta name="theme-color" content="#1e1e2e" />
+  </head>
+  <body
+    class="overflow-x-hidden min-h-screen break-words bg-gradient-to-br to-[#1f1f35] via-[#1f1f35] from-[#08041d] text-white"
+  >
+    <main class="py-20"><slot /></main>
+  </body>
+  <style is:global>
+    @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+    body,
+    html {
+      font-family: "Rubik", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    }
+  </style>
 </html>

@@ -1,14 +1,79 @@
 ---
-import Layout from "../layouts/default.astro"
-import Hero from "../components/hero"
-import Features from "../components/features"
+import Layout from "../layouts/default.astro";
+import Hero from "../components/hero";
+import Features from "../components/features";
+import WobbleCard from "../components/wobble-card";
 ---
 
 <Layout>
-	<Hero client:load data={new Array(1).fill({
-        title: "screenshot",
-        thumbnail: "https://raw.githubusercontent.com/25huizengek1/ViTune/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png"
-    })} />
-
-    <Features />
+  <Hero
+    client:load
+    data={[
+      "https://raw.githubusercontent.com/25huizengek1/ViTune/master/fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "https://raw.githubusercontent.com/25huizengek1/ViTune/master/fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "https://raw.githubusercontent.com/25huizengek1/ViTune/master/fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "https://raw.githubusercontent.com/25huizengek1/ViTune/master/fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "https://raw.githubusercontent.com/25huizengek1/ViTune/master/fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "https://raw.githubusercontent.com/25huizengek1/ViTune/master/fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
+    ]}
+  />
+  <Features />
+  <section id="download" class="w-screen overflow-x-hidden py-10 px-4">
+    <WobbleCard
+      client:load
+      containerClassName="h-full bg-[#08041d]/85 max-h-[500px] lg:max-h-[300px]"
+    >
+      <div class="w-full flex flex-col gap-4 h-full">
+        <div class="pt-10">
+          <h2
+            class="text-left text-balance text-base md:text-xl lg:text-3xl font-bold tracking-[-0.015em] text-white"
+          >
+            Get ViTune Now
+          </h2>
+          <p class="mt-4 text-left font-semibold text-base/6 text-neutral-200">
+            Download ViTune from theese stores and start tuning your music
+            today!
+          </p>
+        </div>
+        <div
+          class="max-h-[500px] lg:max-h-[300px] grid grid-cols-3 items-center align-middle"
+        >
+          <div class="cursor-pointer">
+            <a
+              href="https://github.com/25huizengek1/ViTune/releases/latest"
+              target="_blank"
+              ><img
+                draggable="false"
+                class="rounded-2xl h-full w-full"
+                src="https://github.com/machiav3lli/oandbackupx/raw/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png"
+                alt="download"
+              /></a
+            >
+          </div>
+          <div class="cursor-pointer">
+            <a href="https://repo.vitune.app/" target="_blank"
+              ><img
+                draggable="false"
+                class="rounded-2xl h-full !aspect-video"
+                src="https://camo.githubusercontent.com/79a6958a9201a72b59408c0b9a8109c2cc560b7a0e83e608f9d4cf8a4455ba80/68747470733a2f2f6664726f69642e6769746c61622e696f2f617274776f726b2f62616467652f6765742d69742d6f6e2e706e67"
+                alt="download"
+              /></a
+            >
+          </div>
+          <div class="cursor-pointer">
+            <a
+              href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/25huizengek1/ViTune/"
+              target="_blank"
+              ><img
+                draggable="false"
+                class="rounded-2xl h-fxull w-full"
+                src="https://github.com/ImranR98/Obtainium/raw/main/assets/graphics/badge_obtainium.png"
+                alt="download"
+              /></a
+            >
+          </div>
+        </div>
+      </div>
+    </WobbleCard>
+  </section>
 </Layout>
