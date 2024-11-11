@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@solidjs/router':
-        specifier: ^0.14.9
-        version: 0.14.9(solid-js@1.8.17)
+        specifier: ^0.15.1
+        version: 0.15.1(solid-js@1.8.17)
       '@solidjs/start':
         specifier: ^1.0.8
         version: 1.0.8(solid-js@1.8.17)(vinxi@0.3.11(@types/node@20.14.2)(terser@5.28.1))(vite@5.1.4(@types/node@20.14.2)(terser@5.28.1))
@@ -922,8 +922,8 @@ packages:
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
     engines: {node: '>=18'}
 
-  '@solidjs/router@0.14.9':
-    resolution: {integrity: sha512-CnCi+oSGhTMAhk3Dtg6E29uRf9FoMIu9/awvrx6czbHcyXvGLxkyHsKm6CWErKUmKJBRSwdn8siRuV3qDrZOEg==}
+  '@solidjs/router@0.15.1':
+    resolution: {integrity: sha512-lb5BRBqQqii/1dQCglx2K68xLkgu7QcrcajWKuuEx6FHTsK/hp5IgVhjy6RzPMLj+SFyrrRi/ldirCFNxtzh0Q==}
     peerDependencies:
       solid-js: ^1.8.6
 
@@ -3674,7 +3674,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@2.3.0': {}
 
-  '@solidjs/router@0.14.9(solid-js@1.8.17)':
+  '@solidjs/router@0.15.1(solid-js@1.8.17)':
     dependencies:
       solid-js: 1.8.17
 
