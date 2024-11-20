@@ -7,6 +7,5 @@ import react from "@astrojs/react";
 export default defineConfig({
   output: "static",
   integrations: [tailwind(), react()],
-  site: "https://arnavk-09.github.io",
-  base: "vitune-landing",
+  site: "https://vitune.app",
 });
