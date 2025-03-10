@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@solidjs/router':
-        specifier: ^0.14.9
-        version: 0.14.9(solid-js@1.8.17)
+        specifier: ^0.15.3
+        version: 0.15.3(solid-js@1.8.17)
       '@solidjs/start':
         specifier: ^1.0.8
         version: 1.0.8(solid-js@1.8.17)(vinxi@0.3.11(@types/node@20.14.2)(terser@5.28.1))(vite@5.1.4(@types/node@20.14.2)(terser@5.28.1))
@@ -922,8 +922,8 @@ packages:
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
     engines: {node: '>=18'}
 
-  '@solidjs/router@0.14.9':
-    resolution: {integrity: sha512-CnCi+oSGhTMAhk3Dtg6E29uRf9FoMIu9/awvrx6czbHcyXvGLxkyHsKm6CWErKUmKJBRSwdn8siRuV3qDrZOEg==}
+  '@solidjs/router@0.15.3':
+    resolution: {integrity: sha512-iEbW8UKok2Oio7o6Y4VTzLj+KFCmQPGEpm1fS3xixwFBdclFVBvaQVeibl1jys4cujfAK5Kn6+uG2uBm3lxOMw==}
     peerDependencies:
       solid-js: ^1.8.6
 
@@ -2560,11 +2560,11 @@ packages:
 
   shikiji-core@0.9.19:
     resolution: {integrity: sha512-AFJu/vcNT21t0e6YrfadZ+9q86gvPum6iywRyt1OtIPjPFe25RQnYJyxHQPMLKCCWA992TPxmEmbNcOZCAJclw==}
-    deprecated: Shikiji is merged back to Shiki v1.0, please migrate over to get the latest updates
+    deprecated: Deprecated, use @shikijs/core instead
 
   shikiji@0.9.19:
     resolution: {integrity: sha512-Kw2NHWktdcdypCj1GkKpXH4o6Vxz8B8TykPlPuLHOGSV8VkhoCLcFOH4k19K4LXAQYRQmxg+0X/eM+m2sLhAkg==}
-    deprecated: Shikiji is merged back to Shiki v1.0, please migrate over to get the latest updates
+    deprecated: Deprecated, use shiki instead
 
   signal-exit@3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
@@ -3674,7 +3674,7 @@ snapshots:
 
   '@sindresorhus/merge-streams@2.3.0': {}
 
-  '@solidjs/router@0.14.9(solid-js@1.8.17)':
+  '@solidjs/router@0.15.3(solid-js@1.8.17)':
     dependencies:
       solid-js: 1.8.17
 
