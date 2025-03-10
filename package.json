@@ -28,7 +28,7 @@
         "solid-icons": "^1.1.0",
         "solid-js": "^1.8.17",
         "tailwindcss": "^3.4.3",
-        "vinxi": "0.3.11"
+        "vinxi": "0.5.3"
     },
     "devDependencies": {
         "@eslint/js": "^9.12.0",
